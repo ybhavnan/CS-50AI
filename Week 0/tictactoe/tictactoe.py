@@ -23,7 +23,7 @@ def initial_state():
 
 def player(board):
     """
-    Returns player who has the next turn on a board."""
+    Returns player who has the next turn on a board"""
     num_x = 0
     num_o = 0
 

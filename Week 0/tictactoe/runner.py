@@ -54,7 +54,7 @@ while True:
         pygame.draw.rect(screen, white, playOButton)
         screen.blit(playO, playORect)
 
-        # Check if button is clicked
+        # Check if button is clicked.
         click, _, _ = pygame.mouse.get_pressed()
         if click == 1:
             mouse = pygame.mouse.get_pos()
